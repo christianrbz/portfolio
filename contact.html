@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Marck+Script&family=Montserrat&display=swap" rel="stylesheet">
+
+  
+    <!-- Fontawesome mis à jour -->
+    <script src="https://kit.fontawesome.com/3ae07cc574.js" crossorigin="anonymous"></script>
+
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <div id="entete">
+            <h2><a href="index.html">Christian Reubrez</a></h2>
+
+            <!-- Menu Burger pour mobile et tablette -->
+            <input type="checkbox" id="inputBurger">
+            <label for="inputBurger" id="burger">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="projets.html">Mes projets</a></li>
+                    <li><a href="competences.html">Mes compétences</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+
+        </div>
+
+
+    </header>
+
+    <main>
+
+            <div class="formContact">
+                <h2>Contact</h2>
+
+                <form id="formulaire" action="process.php">
+                    <label for="prénom">Prénom</label><br>
+                    <input type="text" id="prénom" name="pseudo" placeholder="Votre prénom" required>
+                    <br>
+                    <label for="nom">Nom</label><br>
+                    <input type="text" id="nom" name="pseudo" placeholder="Votre nom" required>
+                    <br>
+                    <label for="email">Adresse email</label><br>
+                    <input type="email" id="email" name="email" placeholder="Votre adresse mail" required>
+                    <br>
+                    <label for="objet">Objet</label><br>
+                    <textarea name="objet" id="objet" cols="50" rows="1" placeholder="Objet" required></textarea><br>
+                    <label for="message">Message</label><br>
+                    <textarea name="message" id="message" cols="50" rows="8" placeholder="Message" required></textarea><br>
+                    <p class="rgpd">
+                        <input type="checkbox" name="questionRgpd" required> En cochant cette case vous avez pris connaissance
+                        de
+                        nos
+                        RGPD
+                    </p>
+
+
+                    <input class="bouton" type="submit" name="inscription" value="Envoyer"><br>
+
+                </form>
+            </div>
+
+
+
+    </main>
+
+    <footer>
+
+        <p>Christian Reubrez ®</p>
+
+    </footer>
+
+</body>
+
+</html>
