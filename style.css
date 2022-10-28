@@ -407,7 +407,8 @@ footer p:hover {
     /* ----- Partie : Contact ----- */
 
     .formContact {
-        padding: 1rem;
+        padding: 2rem 2rem 4rem 2rem;
+        text-align: center;
     }
 
     label,
@@ -416,12 +417,7 @@ footer p:hover {
         font-size: 0.8rem;
     }
 
-
-
 }
-
-
-
 
 /* Pour mobile et tablette */
 @media (min-width: 768px) and (max-width: 992px) {
