@@ -300,7 +300,7 @@ footer {
     bottom: 0;
     width: 100%;
     text-align: center;
-    padding: 1rem;
+    padding: 1rem 0 1rem 0;
     color: white;
 }
 
@@ -308,6 +308,22 @@ footer p:hover {
     font-weight: bold;
 
 }
+
+
+footer a {
+    color: white;
+}
+
+footer i {
+    color: white;
+}
+
+.footerText {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
 
 
 /* --------- RESPONSIVE --------- */
@@ -373,6 +389,19 @@ footer p:hover {
         height: 50rem;
     }
 
+    /* Partie : footer */
+
+    footer p {
+        font-size: 0.9rem;
+        margin-top: 7px;
+    }
+
+    .footerText {
+        display: flex;
+        flex-direction: column;
+    }
+
+
     /* ----- Partie : Mes Projets ----- */
 
     .presentation {
@@ -414,10 +443,12 @@ footer p:hover {
     label,
     input,
     textarea {
-        font-size: 0.7rem;
+        font-size: 0.8rem;
     }
 
 }
+
+
 
 /* Pour mobile et tablette */
 @media (min-width: 768px) and (max-width: 992px) {
@@ -430,7 +461,6 @@ footer p:hover {
     .clic {
         font-size: 0.8rem;
     }
-
 
 
 
