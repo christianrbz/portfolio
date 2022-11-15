@@ -346,7 +346,7 @@ footer i {
     }
 
 
-    #inputBurger:checked~nav {
+    #inputBurger:checked ~ nav {
         display: block;
         position: absolute;
         top: -20rem;
@@ -387,18 +387,6 @@ footer i {
 
     .presentation {
         height: 50rem;
-    }
-
-    /* Partie : footer */
-
-    footer p {
-        font-size: 0.9rem;
-        margin-top: 7px;
-    }
-
-    .footerText {
-        display: flex;
-        flex-direction: column;
     }
 
 
@@ -444,6 +432,19 @@ footer i {
     input,
     textarea {
         font-size: 0.8rem;
+    }
+    
+    
+    /* Partie : footer */
+
+    footer p {
+        font-size: 0.9rem;
+        margin-top: 7px;
+    }
+
+    .footerText {
+        display: flex;
+        flex-direction: column;
     }
 
 }
