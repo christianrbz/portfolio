@@ -26,8 +26,10 @@ a {
     justify-content: space-around;
     align-items: center;
     padding-top: 1rem;
+    background-color: white;
+    width: 100%;
+    position: fixed;
 }
-
 
 
 #entete h2 a {
@@ -41,7 +43,6 @@ a {
     font-weight: bold;
 }
 
-
 nav ul {
     display: flex;
 }
@@ -54,7 +55,6 @@ nav a {
 nav a:hover {
     font-weight: bold;
 }
-
 
 nav li {
     padding: 10px;
@@ -83,7 +83,6 @@ nav li:hover {
     height: 80rem;
     text-align: left;
     color: black;
-    margin-top: 1.1rem;
     background-image: url(img/bg1.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -151,7 +150,7 @@ nav li:hover {
 /* ----- Partie : Mes projets ----- */
 
 .mesprojets {
-    padding-top: 2rem;
+    padding-top: 6rem;
     padding-bottom: 5rem;
     text-align: center;
 }
@@ -175,7 +174,6 @@ nav li:hover {
     flex-flow: row wrap;
     justify-content: center;
 }
-
 
 .projet {
     width: 25%;
@@ -207,7 +205,7 @@ nav li:hover {
 
 .competences {
     text-align: center;
-    padding: 2rem 0;
+    padding: 6rem 0 1rem 0;
 }
 
 .competences h2 {
@@ -332,6 +330,9 @@ footer i {
 
     /* Pour mettre le Menu Burger */
 
+    #entete {
+        flex-direction: column;
+    }
 
     #entete i {
         display: block;
@@ -351,16 +352,13 @@ footer i {
         width: 100%;
     }
 
-    #entete {
-        flex-direction: column;
-
-    }
+    
 
 
     /* Configuration de la nouvelle nav du menu Burger */
 
     nav ul {
-        display: flex;
+        /* display: flex; */
         flex-direction: column;
         text-align: center;
     }
@@ -385,6 +383,7 @@ footer i {
 
     .presentation {
         height: 50rem;
+        padding-top: 7rem;
     }
 
     /* Partie : footer */
@@ -432,31 +431,40 @@ footer i {
     }
 
     /* ----- Partie : Contact ----- */
-
+    
     .formContact {
         padding: 2rem 2rem 4rem 2rem;
         text-align: center;
     }
-
+    
     label,
     input,
     textarea {
         font-size: 0.8rem;
     }
-
 }
 
 
 /* Pour mobile et tablette */
 @media (min-width: 768px) and (max-width: 992px) {
-
+    
     #entete {
         flex-direction: column;
-
+        
     }
-
     .clic {
         font-size: 0.8rem;
+    }
+    
+    /* ----- Partie : Mes projets ----- */
+    
+    .mesprojets {
+        padding-top: 8rem;
+    }
+    /* ----- Partie : Mes compétences ----- */
+
+    .competences {
+        padding-top: 8rem;
     }
 
 }
