@@ -296,9 +296,6 @@ textarea {
 
 footer {
     background-color: #2C2C2C;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
     text-align: center;
     padding: 1rem 0 1rem 0;
     color: white;
@@ -334,6 +331,7 @@ footer i {
     /* ----- Barre de navigation ----- */
 
     /* Pour mettre le Menu Burger */
+
 
     #entete i {
         display: block;
@@ -389,6 +387,18 @@ footer i {
         height: 50rem;
     }
 
+    /* Partie : footer */
+
+    footer p {
+        font-size: 0.9rem;
+        margin-top: 7px;
+    }
+
+    .footerText {
+        display: flex;
+        flex-direction: column;
+    }
+
 
     /* ----- Partie : Mes Projets ----- */
 
@@ -433,22 +443,8 @@ footer i {
     textarea {
         font-size: 0.8rem;
     }
-    
-    
-    /* Partie : footer */
-
-    footer p {
-        font-size: 0.9rem;
-        margin-top: 7px;
-    }
-
-    .footerText {
-        display: flex;
-        flex-direction: column;
-    }
 
 }
-
 
 
 /* Pour mobile et tablette */
@@ -462,7 +458,5 @@ footer i {
     .clic {
         font-size: 0.8rem;
     }
-
-
 
 }
