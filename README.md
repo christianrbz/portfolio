@@ -1,4 +1,4 @@
-Réalisation de mon portfolio afin de montrer mes différents projets réalisés et mes compétences.
+Réalisation de mon portfolio 
 
 Adresse du site : https://christianrbz.github.io/portfolio/
 
