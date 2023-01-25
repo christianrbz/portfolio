@@ -1,10 +1,8 @@
-Réalisation de mon portfolio 
-
-Adresse du site : https://christianrbz.github.io/portfolio/
-
-Le site comporte 2 pages :
+Réalisation de mon portfolio comportant 2 pages :
 - Mes projets
 - Mes compétences
+
+Adresse du site : https://christianrbz.github.io/portfolio/
 
 Charte graphique du site :
 - Typographie : Montserrat, et Marck Script (pour le logo)
